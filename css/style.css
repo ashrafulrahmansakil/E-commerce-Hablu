@@ -1,0 +1,270 @@
+/* root */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+span{
+    color: #7A72FF;
+}
+
+hr {
+    margin: 5px;
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    border: none;
+    border-radius: 60px;
+    color: white;
+    background-color: #313131;
+    margin: 14px 0px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #7A72FF;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header-area{
+    padding: 50px 0px;
+}
+.header-container {
+    display: grid;
+    grid-template-columns: 10fr 1fr;
+}
+
+.logo{
+    width: 80%;
+    float: left;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+    font-weight: bold;   
+}
+
+.serach {
+    position: fixed;
+    border: 1px solid rgb(25 21 62 / 10%);
+    box-shadow: 1px 2px 30px rgb(26 0 241 / 20%);
+    padding: 0px 25px;
+    border-radius: 50px;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.serach i {
+    padding: 10px 5px;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 10px;
+    color: rgb(63, 63, 63);
+}
+
+/* header section */
+
+.header-section {
+    display: inline-block;
+    margin-right: 200px;
+    letter-spacing: 10px;
+    padding: 40px 0px;
+}
+
+.header-section img {
+    width: 400px;
+}
+
+.header-section h1, h2 {
+    font-size: 30px;
+}
+
+.icon-area{
+    position: fixed;
+    left: 200px;
+    top: 25%;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 5px 5px 10px rgb(255 118 118 / 20%);
+    padding: 5px 5px;
+}
+
+.icon-area a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+/*icon hover */
+
+.fa-facebook:hover{
+    color:#1877F2 ;
+}
+
+.fa-twitter:hover{
+    color:#1DA1F2 ;
+}
+
+.fa-instagram:hover{
+    color:#c32aa3 ;
+}
+
+.fa-youtube:hover{
+    color:#CD201F ;
+}
+
+/* market area */
+
+.market-area {
+    margin: 125px 0px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.market-area h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+}
+
+.product-box-img img {
+    width: 200px;
+}
+
+.product-box {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+
+.product-box h1 {
+    font-size: 18px;
+}
+
+.product-box:hover {
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+}
+
+.product-box:hover .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.btn{
+	background:linear-gradient(120deg,#6b60ec 20%,#a166f4);
+	color:#FFFFFF;
+	display: none;
+	animation: fade 0.2s;
+	text-decoration: none;
+	display: none;
+}
+
+
+/* about area */
+
+.about-area {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 50px 0px;
+}
+
+.about-item img {
+    width: 500px;
+}
+
+.about-item h1 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.about-item p {
+    color: grey;
+    padding: 15px 0px;
+}
+
+/* notification area */
+
+.notificatin-area {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.notificationInput {
+    padding: 15px 0px;
+    background-color: #fff;
+    border-radius: 50px;
+    display: inline-block;
+    width: 500px;
+    box-shadow: 7px 10px 30px rgb(158 53 53 / 15%);
+}
+
+.notificationInput input{
+    width: 50%;
+}
+
+.notificatin-area h1 {
+    padding: 40px 0px;
+}
+
+.notificationInput a {
+    text-decoration: none;
+    background-color: #000;
+    padding: 8px 30px;
+    border-radius: 50px;
+    color: #fff;
+    float: right;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.notificationInput a:hover{
+    background-color: #6b60ec;
+}
+
+/* footer */
+footer{
+    padding: 35px 0px;
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+}
