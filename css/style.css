@@ -41,6 +41,7 @@ button:hover{
 .header-area{
     padding: 50px 0px;
 }
+
 .header-container {
     display: grid;
     grid-template-columns: 10fr 1fr;
@@ -58,7 +59,7 @@ button:hover{
     font-weight: bold;   
 }
 
-.serach {
+.search {
     position: fixed;
     border: 1px solid rgb(25 21 62 / 10%);
     box-shadow: 1px 2px 30px rgb(26 0 241 / 20%);
@@ -68,11 +69,11 @@ button:hover{
     background-color: transparent;
 }
 
-.serach i {
+.serach i{
     padding: 10px 5px;
 }
 
-input {
+input{
     border: none;
     outline: none;
     width: 100px;
@@ -94,6 +95,7 @@ input {
 
 .header-section img {
     width: 400px;
+    height: auto;
 }
 
 .header-section h1, h2 {
@@ -143,8 +145,9 @@ input {
 /* market area */
 
 .market-area {
-    margin: 125px 0px;
-    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    height: 54rem;
+    width: auto;
+    box-shadow: 2px 2px 30px rgb(0 0 0 / 10%);
     border-radius: 5px;
 }
 
@@ -156,8 +159,8 @@ input {
 
 .product-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 5px;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .product-box-img img {
@@ -167,7 +170,8 @@ input {
 .product-box {
     text-align: center;
     font-size: 16px;
-    padding: 10px 0px;
+    padding: 30px 10px;
+    transition: all cubic-bezier(0.25, 0.1, 0.56, 0.78) .5s;
     border-radius: 5px;
 }
 
@@ -179,24 +183,11 @@ input {
     box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
 }
 
-.product-box:hover .btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: inline-block;
-    width: 150px;
-    height: 50px;
-    border-radius: 50px;
-    padding: 15px;
-}
+.btn{position: absolute;width:140px;height: 40px;display: flex;justify-content: center;align-items: center;border-radius: 15% 15% 15% 15% / 50% 50% 50% 50%;background:linear-gradient(120deg,#6b60ec 20%,#a166f4);color:#FFFFFF;display: none;animation: fade 0.2s;text-decoration: none;transform: translate(105px,6px);}
 
-.btn{
-	background:linear-gradient(120deg,#6b60ec 20%,#a166f4);
-	color:#FFFFFF;
-	display: none;
-	animation: fade 0.2s;
-	text-decoration: none;
-	display: none;
+.product-box:hover .btn{
+    	display: flex;
+    	transition: all cubic-bezier(0.25, 0.1, 0.56, 0.78) .5s;
 }
 
 
@@ -205,7 +196,7 @@ input {
 .about-area {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    padding: 50px 0px;
+    padding: 60px 10px;
 }
 
 .about-item img {

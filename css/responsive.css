@@ -1,0 +1,38 @@
+/* tablets and Ipads */
+
+
+
+/* Mobile Phone */
+
+
+
+/* Mobile Phone */
+
+@media screen and (max-width:768px) {
+    .logo{
+        text-align:center;
+    }
+    
+    .search{
+        right: 15px;
+    }
+    
+    .header-item {
+        padding: 22px 0px;
+    }
+    
+    .icon-area {
+        display: none;
+    }
+    
+    .about-area {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    
+    
+    
+    
+      }
+    
