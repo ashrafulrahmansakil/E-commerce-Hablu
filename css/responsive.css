@@ -1,68 +1,79 @@
 /* tablet */
 
-@media screen and (max-width:768px) {
-.btn{
-    transform: translate(80px,6px);
-}
-.icon__area {
-     display: none;
-}
+@media screen and (min-width:321px) and (max-width:768px){
+    .btn{
+        transform: translate(80px,6px);
+    }
     
+    .logo{
+        width: 70%;
+    }
     
-.product__collection {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
+    .search{
+        width: 22%;
+    }
     
+    .icon__area {
+         display: none;
+    }
+        
+        
+    .product__collection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+        
+        
+        
+    .about__item__container {
+        display: flex;
+        flex-direction: column;
+    }
+        
+        
+    }
+        
+        /* mobile */
+        
+    @media screen and (max-width:320px) {
     
+    .btn{
+        transform: translate(30px,6px);
+    }
     
-.about__item__container {
-    display: flex;
-    flex-direction: column;
-}
+    .logo{
+        width: 50%;
+    }
     
+    .search{
+        width: 50%;
+    }
     
-}
+    .product__collection {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+        
+    .about__item__dec p {
+         width: 100%;
+    }
+          
+    .notificationInput {
+        width: 310px;
+        padding: 10px 0px;
+    }
+        
+    .collection__item{
+        display:block;
+        text-align: center;
+    }
+        
+    .about__item__title{
+            font-size: 20px;
+    }
     
-    /* mobile */
+    .icon__area {
+        display: none;
+   }
     
-@media screen and (max-width:320px) {
-
-.btn{
-    transform: translate(30px,6px);
-}
-
-.logo{
-    width: 50%;
-}
-
-.search{
-    width: 50%;
-}
-
-.product__collection {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-    
-.about__item__dec p {
-     width: 100%;
-}
-      
-.notificationInput {
-    width: 310px;
-    padding: 10px 0px;
-}
-    
-.collection__item{
-    display:block;
-    text-align: center;
-}
-    
-.about__item__title{
-        font-size: 20px;
-}
-
-
-
-}
+    }
