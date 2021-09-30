@@ -48,7 +48,7 @@ button {
     background: linear-gradient(120deg,#6b60ec 20%,#a166f4);
     color: #FFFFFF;
     display: none;
-    animation: fade 0.2s;
+    animation:0.2s;
     text-decoration: none;
     transform: translate(105px,6px);
   }
@@ -215,7 +215,7 @@ input[type="search"] {
 }
 
 
-/* market area start */
+/* market area end */
 
 
 /* about area start */
@@ -238,29 +238,30 @@ input[type="search"] {
 .about__item__sub {
     padding: 14px 0px;
 }
-  
-.about__item__dec {
-    width: 570px;
-}
 
 .about__item img {
-    width: 500px;
-  }
+    width: 95%;
+}
+
   /* about area end */
 
-  /* notification area */
+  /* notification area start */
 
 .notificatin__area {
-    margin: 50px 0px;
+    padding: 50px 0px;
     text-align: center;
 }
 
+.notificatin__area h1 {
+    padding: 25px 0px;
+}
+
 .notificationInput {
-    padding: 15px 0px;
+    padding: 20px 0px;
     background-color: #fff;
     border-radius: 50px;
     display: inline-block;
-    width: 500px;
+    width: 50%;
     box-shadow: 7px 10px 30px rgb(158 53 53 / 15%);
 }
 
@@ -289,10 +290,16 @@ input[type="search"] {
     background-color: #6b60ec;
 }
 
-/* footer */
+/* notification area end */
+
+/* footer  area start*/
+
 footer{
-    padding: 35px 0px;
+    margin: 10px 0px 0px 0px;
     background-color: black;
     color: #FFF;
     text-align: center;
+    padding: 50px 0px;
 }
+
+/* footer  area end*/
